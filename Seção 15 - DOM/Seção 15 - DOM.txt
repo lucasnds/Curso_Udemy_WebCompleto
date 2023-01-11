@@ -1,0 +1,22 @@
+DOM - Document Object Model 
+
+SELECIONANDO ELEMENTOS 1
+
+document.ElementById('');
+document.ElementsByClassName('');
+document.ElementsByTagName('');
+obs: todas essas formas de selecionar elementos retornam um html
+colection e não um array.
+TRANSFORMANDO EM ARRAY:
+[...nomedoelemento]
+Array.from(nomedoelemento)
+
+SELECIONANDO ELEMENTOS 2
+
+document.querySelectorAll('.class')
+ou
+document.querySelectorAll('#id')
+ou
+qualquer outro seletor 
+obs: retornando um nodeList que tem o forEach mas nao tem outras
+funções que um array proporciona
